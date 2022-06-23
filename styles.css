@@ -1,0 +1,353 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Oswald';
+    background-image: url(./assets/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall.jpg);
+  background-position: center;
+  background-size: cover;
+  }  
+
+/*home page*/
+.home-page{
+    background-image: url(./assets/ayrus-hill-2fsDwu5Zza4-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+    -webkit-animation:forest-night 10s infinite;
+  animation:forest-night 10s infinite;
+}
+@-webkit-keyframes forest-night {
+  0% {
+    filter:hue-rotate(0deg) brightness(0%);
+  }
+  10% {
+    filter:hue-rotate(0deg) brightness(50%);
+  }
+  20% {
+    filter:hue-rotate(0deg) brightness(80%);
+  }
+  50% {
+    filter:hue-rotate(0deg) brightness(2);
+  }
+  70% {
+    filter:hue-rotate(220deg) brightness(50%);
+  }
+  100% {
+    filter:hue-rotate(0deg) brightness(0%);
+  }
+}
+@keyframes forest-night {
+  0% {
+    filter:hue-rotate(0deg) brightness(0%);
+  }
+  10% {
+    filter:hue-rotate(0deg) brightness(50%);
+  }
+  20% {
+    filter:hue-rotate(0deg) brightness(80%);
+  }
+  50% {
+    filter:hue-rotate(0deg) brightness(2);
+  }
+  70% {
+    filter:hue-rotate(220deg) brightness(50%);
+  }
+  100% {
+    filter:hue-rotate(0deg) brightness(0%);
+    
+}
+}
+.navbar{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ z-index: 3;
+ position: fixed;
+ top: 0px;
+    
+  }
+
+.navbar-content{
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly; 
+ }
+.larg{
+  font-size: 30px;
+}
+.id{
+  padding: 30px;
+  font-size: 24px;
+  color: white;
+  text-decoration-style: none;
+    text-decoration-line: none;
+}
+.text{ 
+ color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 200px;
+  font-size: 7em;
+}
+.id:hover{
+  font-size: 35px;
+
+}
+.larg:hover{
+  color: rgb(134, 15, 15);
+  transform: rotateY(360deg);
+  font-size: 35px;
+}
+.text:hover{
+  font-size: 10em;
+  text-shadow:10px 5px black;
+}
+/*about me*/
+.about-me{
+  height: fit-content;
+    min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  
+}
+.about-content{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+
+}
+.about-tittel{
+ text-shadow:5px 2px grey;
+  font-size: 45px;
+  font-weight: 600;
+
+}
+.about-container{
+  flex: 1;
+  height: 100%;
+  width: 90%;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+ 
+
+}
+.about-info{
+  flex: 2;
+  width: 80;
+  padding: 20px;
+  text-align: justify;
+}
+.about-img{
+  flex: 3;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+
+
+}
+.img{
+width: 80%;
+background-image: url(./assets/pexels-hitesh-choudhary-340152.jpg);
+background-position: center;
+background-size: cover;
+border-radius: 7px;
+filter:hue-rotate(220deg) brightness(70%);
+}
+h3{
+  font-size: 30px;
+}
+p{
+  font-size: 20px;
+}
+/*My Education background */
+.background{
+  height: fit-content;
+  min-height: 100vh;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+flex-direction: column;
+}
+
+.background-tittel{
+  flex: 2;
+  color: #fff;
+  padding: 25px;
+  text-shadow:5px 2px grey;
+  font-size: 45px;
+  font-weight: 600;
+
+}
+.background-dtls{
+  flex: 5;
+  color: #fff;
+  padding: 25px;
+  text-align: justify;
+  font-size: 25px;
+
+}
+/*Work Experience*/
+.work{
+  height: fit-content;
+    min-height:100vh;
+  display: flex;
+  justify-content: center;
+}
+.work-content{
+  height: fit-content;
+  min-height:100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+.work-tittel{
+  text-shadow:5px 2px grey;
+  font-size: 45px;
+  font-weight: 600;
+}
+.work-conainer{
+  height: fit-content;
+  min-height:70vh;
+  width: 80%;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+ 
+ 
+}
+.work-text{
+  flex: 2;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40PX;
+
+
+}
+.img-work{
+  flex: 3;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.immg{
+  height: 90%;
+  width: 90%;
+  background-image: url(./assets/frying-ribs-meat-inside-black-pan-in-the-kitchen.jpg);
+  background-position: center;
+  background-size: cover; 
+  border-radius: 50%;
+  filter: brightness(70%);
+}
+/*to Contact Me*/
+.contact{
+  display: flex;
+  min-height: 90vh;
+  height: fit-content;
+  justify-content: center;
+  color: #fff;
+}
+
+.contact-container{
+  height: 100%;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  background: rgb(61, 60, 60);
+  color: #fff;
+ background-image: -webkit-linear-gradient(top, #11cdd4, #1199e);
+ background-image: -moz-linear-gradient(top, #11cdd4, #1199e);
+ background-image: -ms-linear-gradient(top, #11cdd4, #1199e);
+ background-image: -o-linear-gradient(top, #11cdd4, #1199e);
+ background-image: linear-gradient(to bottom, #11cdd4, #1199e);
+-webkit-border-radius: 8;
+-moz-border-radius: 8;
+border-radius: 8px;
+font-family: 'Montserrat', sans-serif;
+font-size: 20px;
+padding: 10px 20px 10px 20px;
+margin: 50px 0 30px 0;
+position: relative;
+left: 220px;
+
+}
+.btn{
+  color: #fff;
+  text-decoration: none;
+  width: 50%;
+ 
+}
+button:hover{ 
+ background: #340652;
+background-image: -webkit-linear-gradient(top, #340652, #381047);
+background-image: -moz-linear-gradient(top, #340652, #381047);
+background-image: -ms-linear-gradient(top, #340652, #381047);
+background-image: -o-linear-gradient(top,#340652, #381047);
+background-image: linear-gradient(to bottom, #340652, #381047);
+text-decoration: none;
+}
+.contact-text{
+  flex: 1;
+}
+.contact-form{
+  flex : 1;
+}
+#contact-title{
+  font-size: 60px;
+  padding: 30px 0px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+input{
+  margin: 20px;
+  padding: 20px;
+  font-size: 20px;
+  font-family: 'Oswald';
+
+}
+textarea{
+  margin: 20px;
+  font-size: 20px;
+  padding: 20px;
+  font-family: 'Oswald';
+  resize: none;
+   height: 150px;
+}
+footer{
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+.rs{
+  display: flex;
+ justify-content: space-evenly;
+ font-size: 20px;
+
+}
